@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif; /* Utilisez la police de votre choix */
+}
+
+.conteneur {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px; /* Ajustez selon la largeur souhaitée de l'article */
+}
+
+.article {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Effet d'ombre subtil */
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    background-color: white; /* Arrière-plan de l'article */
+}
+
+h1 {
+    font-size: 2em;
+    color: #333; /* Couleur du titre */
+}
+
+.sous-titre {
+    font-size: 1.2em;
+    color: #666; /* Couleur du sous-titre */
+    margin-bottom: 20px;
+}
+
+.image-article {
+    width: 100%; /* Ajustez l'image pour qu'elle s'adapte à la largeur de l'article */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify; /* Justifie le texte des paragraphes */
+    line-height: 1.6; /* Espacement des lignes pour améliorer la lisibilité */
+}
